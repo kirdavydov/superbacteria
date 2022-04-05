@@ -1,0 +1,27 @@
+body{
+  font-family: Helvetica, serif;
+  background-color: rgb(40, 40, 40);
+  color: rgb(230, 230, 230);
+}
+.sidebar_item{
+  background-color: transparent;
+  color: rgb(230, 230, 230);  border: none;
+  font-size: 120%;
+}
+#sidebar{
+  position: fixed;
+  top: 80px;
+  left: 10px;
+  width: 150px;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+#heading{
+  border-bottom: 3px solid black;
+}
+#content{
+  position: relative;
+  left: 170px;
+  border-bottom: 3px solid black;
+}
