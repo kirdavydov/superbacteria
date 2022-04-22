@@ -1,198 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Super bacteria</title>
+    <title>Super bacterias</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div id='heading'>
-      <h1>Super bacteria</h1>
+    <div id='sidebar'>
+      <button type="button" id='hideSidebarBtn' onclick="hide()">hide/show</button>
+
+      <button type="button" id="se_introduccion" class="sidebar_item" onclick="scrollToElement(introduccion)">Introducción</button>
+      <button type="button" id="se_historiaDeLosAntibioticos" class="sidebar_item" onclick="scrollToElement(historiaDeLosAntibioticos)">Historia de los antibioticos</button>
     </div>
 
-    <div id='sidebar'>
-      <button type="button" id="scrolling test" class="sidebar_item">something</button><br>
-      asdf<br>
-      deduh<br>
-      bubfuiebwf<br>
-      somesting<br>
-      asdf<br>
-      deduh<br>
-      bubfuiebwf<br>
-      somesting<br>
-      asdf<br>
-      deduh<br>
-      bubfuiebwf<br>
-      somesting<br>
-      asdf<br>
-      deduh<br>
-      bubfuiebwf<br>
-      somesting<br>
-      asdf<br>
-      deduh<br>
-      bubfuiebwf<br>
-      somesting<br>
-      asdf<br>
-      deduh<br>
-      bubfuiebwf<br>
-      somesting<br>
-      asdf<br>
-      deduh<br>
-      bubfuiebwf<br>
-      somesting<br>
-      asdf<br>
-      deduh<br>
-      bubfuiebwf<br>
-      somesting<br>
+    <div id='heading'>
+      <h1>Super bacterias</h1>
     </div>
 
     <div id='content'>
       <p>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        <span id='point'>scroll here</span><br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
-        bfbirubfibrfiob3irbfg3rwg3rwgqbgoiqubou<br>
+        <h3><span id='introduccion'>Introducción</span></h3>
+        El término «superbacteria» hace referencia a cepas de bacterias que son resistentes <br>
+        a la mayoría de los antibióticos que se usan de forma común en la actualidad.<br>
+        Las superbacterias son generalmente bacterias gramnegativas.<br>
+        <h3><span id='historiaDeLosAntibioticos'>Historia de los antibioticos</span></h3>
+        El primer antibiótico descubierto fue la penicilina, en 1897 por Ernest Duchesne de Francia<br>
+        estudiando el hongo Penicillium, aunque su trabajo recibió poca atención por parte de la comunidad<br>
+        científica. La investigación en el campo de la terapia antibiótica moderna comenzó en Alemania con<br>
+        el desarrollo del antibiótico de espectro corto Salvarsan en 1909 por Paul Ehrlich. [4] Este descubrimiento<br>
+        convirtió a la sífilis en un tratamiento eficaz para el problema de salud pública predominante en ese momento.<br>
+        [14] Este medicamento también es efectivo contra otras infecciones por espiroquetas, pero ya no se usa en la<br>
+        actualidad. Posteriormente, el médico británico Alexander Fleming (1881-1955) cultivó una bacteria (Staphylococcus aureus)<br>
+        en placas de agar que accidentalmente se contaminaron con un hongo. Entonces notó que el medio que rodeaba el moho<br>
+        estaba libre de bacterias, y se sorprendió, y comenzó a investigar por qué.<br>
       </p>
     </div>
-    <script>
-      btn = document.getElementById('scrolling test');
-      point = document.getElementById('point');
-      btn.addEventListener('click', click);
-      function click(){
-        point.scrollIntoView();
-        console.log(document.documentElement.scrollTop);
-      }
-    </script>
+    <script src="index.js"></script>
   </body>
 </html>
