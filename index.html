@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Super bacterias</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='styles.css'>
   </head>
   <body>
     <div id='sidebar'>
-      <button type="button" id='hideSidebarBtn' onclick="hide()">hide/show</button>
-
-      <button type="button" id="se_introduccion" class="sidebar_item" onclick="scrollToElement(introduccion)">Introducción</button>
-      <button type="button" id="se_historiaDeLosAntibioticos" class="sidebar_item" onclick="scrollToElement(historiaDeLosAntibioticos)">Historia de los antibioticos</button>
+      <br>
+      <button type='button' id='se_quienesSomos' class='sidebar_item' onclick='scrollToElement(quienesSomos)'>¿Quiénes somos?</button><br>
+      <button type='button' id='se_introduccion' class='sidebar_item' onclick='scrollToElement(introduccion)'>Introducción</button>
+      <button type='button' id='se_historiaDeLosAntibioticos' class='sidebar_item' onclick='scrollToElement(historiaDeLosAntibioticos)'>Historia de los antibioticos</button>
     </div>
 
     <div id='heading'>
@@ -18,22 +19,45 @@
 
     <div id='content'>
       <p>
+        <h3><span id='quienesSomos'>¿Quiénes somos?</span></h3>
+        <img src='we.jpeg' id='i_we' class='img'>
+        <p>
+        Hola, somos Kirill, Sofía y Joshua (Kisojo).
+        Un grupo de estudiantes de la escuela Santa Clara International School.
+        Nos conocemos desde hace dos años y este proyecto nos lo propuso nuestro
+        amigo Kirill y nos pareció algo interesante sobre lo que investigar y hablar.
+        </p>
         <h3><span id='introduccion'>Introducción</span></h3>
-        El término «superbacteria» hace referencia a cepas de bacterias que son resistentes <br>
-        a la mayoría de los antibióticos que se usan de forma común en la actualidad.<br>
-        Las superbacterias son generalmente bacterias gramnegativas.<br>
-        <h3><span id='historiaDeLosAntibioticos'>Historia de los antibioticos</span></h3>
-        El primer antibiótico descubierto fue la penicilina, en 1897 por Ernest Duchesne de Francia<br>
-        estudiando el hongo Penicillium, aunque su trabajo recibió poca atención por parte de la comunidad<br>
-        científica. La investigación en el campo de la terapia antibiótica moderna comenzó en Alemania con<br>
-        el desarrollo del antibiótico de espectro corto Salvarsan en 1909 por Paul Ehrlich. [4] Este descubrimiento<br>
-        convirtió a la sífilis en un tratamiento eficaz para el problema de salud pública predominante en ese momento.<br>
-        [14] Este medicamento también es efectivo contra otras infecciones por espiroquetas, pero ya no se usa en la<br>
-        actualidad. Posteriormente, el médico británico Alexander Fleming (1881-1955) cultivó una bacteria (Staphylococcus aureus)<br>
-        en placas de agar que accidentalmente se contaminaron con un hongo. Entonces notó que el medio que rodeaba el moho<br>
-        estaba libre de bacterias, y se sorprendió, y comenzó a investigar por qué.<br>
+        <p>
+        El término «superbacteria» hace referencia a cepas de bacterias que son resistentes
+        a la mayoría de los antibióticos que se usan de forma común en la actualidad.
+        Las superbacterias son generalmente bacterias gramnegativas.
+        </p>
+        <h3><span id='historiaDeLosAntibioticos'>Historia de los antibióticos</span></h3>
+        <img src='alexanderFleming.jpeg' id='i_alexanderFleming' class='img'>
+        <p>Los antibióticos son medicamentos que combaten las bacterias en personas y animales.
+        Sirven para matar las bacterias o dificultar su crecimiento y multiplicación.
+        El término antibióticos significa 'contra la vida' en este caso, contra los microbios.
+        </p>
+        <p>
+        El primer antibiótico descubierto fue la penicilina, en 1928 por Alexander Fleming.
+        Con el descubrimiento de la penicilina comenzo la era de los antibióticos,
+        las propias defensas del cuerpo ganaron un poderoso aliado. Fleming y otros realizaron
+        una serie de experimentos en las 2 décadas siguientes usando penicilina que tomaron de los cultivos de
+        moho que mostraron su capacidad de destruir bacterias infecciosas.
+        Pudieron producir suficiente penicilina como para probarla en animales y luego en humanos.
+        </p>
+        <p>
+        A partir de 1941, encontraron que incluso los niveles bajos de penicilina curaban infecciones
+        muy graves y salvaban muchas vidas. Las compañías farmacéuticas estaban muy interesadas en
+        este descubrimiento y empezaron a producir penicilina con propósitos comerciales.
+        Con el éxito de la penicilina, empezó la carrera para producir otros antibióticos.
+        </p>
       </p>
     </div>
-    <script src="index.js"></script>
+    <div id='bottom'>
+      <a href='comoHicimosLaPaginaWeb.html' id='comoHicimosLaPaginaWeb'>¿Cómo hicimos la pagina web?</a>
+    </div>
+    <script src='index.js'></script>
   </body>
 </html>
