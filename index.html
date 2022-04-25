@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <title>Super bacterias</title>
     <link rel='stylesheet' href='styles.css'>
   </head>
@@ -9,15 +9,18 @@
     <div id='sidebar'>
       <br>
       <button type='button' id='se_quienesSomos' class='sidebar_item' onclick='scrollToElement(quienesSomos)'>¿Quiénes somos?</button><br>
-      <button type='button' id='se_introduccion' class='sidebar_item' onclick='scrollToElement(introduccion)'>Introducción</button>
-      <button type='button' id='se_historiaDeLosAntibioticos' class='sidebar_item' onclick='scrollToElement(historiaDeLosAntibioticos)'>Historia de los antibioticos</button>
-      <button type='button' id='se_porQueSonUnProblema' class='sidebar_item' onclick='scrollToElement(porQueSonUnProblema)'>¿Por qué son un problema?</button>
+      <button type='button' id='se_introduccion' class='sidebar_item' onclick='scrollToElement(introduccion)'>Introducción</button><br>
+      <button type='button' id='se_historiaDeLosAntibioticos' class='sidebar_item' onclick='scrollToElement(historiaDeLosAntibioticos)'>Historia de los antibioticos</button><br>
+      <button type='button' id='se_comoEvolucionaronLasBacterias' class='sidebar_item' onclick='scrollToElement(comoEvolucionaronLasBacterias)'>¿Como evolucionarón las bacterias?</button><br>
+      <button type='button' id='se_porQueSonUnProblema' class='sidebar_item' onclick='scrollToElement(porQueSonUnProblema)'>¿Por qué son un problema?</button><br>
+      <button type='button' id='se_lasSuperBacteriasMasPeligrosas' class='sidebar_item' onclick='scrollToElement(lasSuperBacteriasMasPeligrosas)'>Las super bacterias más peligrosas</button><br>
+      <button type='button' id='se_comoPararLaEvolucionDeLasSuperBacterias' class='sidebar_item' onclick='scrollToElement(comoPararLaEvolucionDeLasSuperBacterias)'>Cómo parar la evolución de las super bacterias</button><br>
     </div>
 
     <div id='heading'>
       <h1>Super bacterias</h1>
     </div>
-
+<li>
     <div id='content'>
       <p>
         <h3 id='quienesSomos'>¿Quiénes somos?</h3>
@@ -36,7 +39,8 @@
         </p>
         <h3 id='historiaDeLosAntibioticos'>Historia de los antibióticos</h3>
         <img src='img/alexanderFleming.jpeg' id='i_alexanderFleming' class='img'>
-        <p>Los antibióticos son medicamentos que combaten las bacterias en personas y animales.
+        <p>
+          Los antibióticos son medicamentos que combaten las bacterias en personas y animales.
           Sirven para matar las bacterias o dificultar su crecimiento y multiplicación.
           El término antibióticos significa 'contra la vida' en este caso, contra los microbios.
         </p>
@@ -53,6 +57,33 @@
           muy graves y salvaban muchas vidas. Las compañías farmacéuticas estaban muy interesadas en
           este descubrimiento y empezaron a producir penicilina con propósitos comerciales.
           Con el éxito de la penicilina, empezó la carrera para producir otros antibióticos.
+        </p>
+        <h3 id='comoEvolucionaronLasBacterias'>¿Como evolucionarón las bacterias?</h3>
+        <p>
+          Los antibióticos nos ayudan a combatir las bacterias sin embargo han surgido las Superbacterias,
+          bacterias que son resistentes a la mayoría de los antibióticos, antes de empezar a explicar cómo
+          evolucionaron las bacterias hay que aclarar que son los antibióticos realmente.
+        </p>
+        <p>
+          Los antibióticos nos ayudan a combatir las bacterias y básicamente alteran las reacciones
+          químicas que permiten la vida bacteriana, por ejemplo la penicilina interfiere en el funcionamiento de la
+          pared celular de las bacterias y así los granulocitos (Los granulocitos ayudan al cuerpo a combatir infecciones
+          bacterianas).
+        </p>
+        <p>
+          La cantidad de granulocitos en el cuerpo normalmente aumenta cuando se presenta una infección grave.
+          Las personas que tienen una cantidad menor de granulocitos son más propensas a tener infecciones graves más a menudo.)
+          Pueden devorar las bacterias con más facilidad. Antibióticos como la tetricilina impiden que las bacterias se
+          reproduzcan, otros alteran la química de las bacterias impidiendo que generen ciertas vitaminas que necesitan
+          para vivir. Con los antibióticos teníamos la defensa perfecta contra las bacterias, pero no contabamos en la evolución.
+        </p>
+        <h4>¿Como evolucionaron?</h4>
+        <p>
+          Puede ser que en algún momento existiera una bacteria inmune a los efectos de los antibióticos,
+          en circunstancias normales a lo mejor esa bacteria inmune podría haber muerto de hambre, pero cuando usamos
+          un antibiótico lo que hacemos es destruir o eliminar a la mayor parte de las bacterias, ahora la bacteria inmune
+          tiene mas probabilidades de sobrevivir que cuando habia mas bacterias, ahora si repetimos esto varias veces mas,
+          mas bacterias morirán (aparte de la inmune) y habrá más bacterias inmunes a los antibióticos.
         </p>
         <h3 id='porQueSonUnProblema'>¿Por qué son un problema?</h3>
         <p>
@@ -82,7 +113,54 @@
             <li>El grupo 3: prioridad media. Incluye a Streptococcus pneumoniae (sin sensibilidad a la penicilina), Haemophilus influenzae (resistente a la ampicilina) y Shigella spp. (resistente a las fluoroquinolonas).</li><br>
           </ul>
         </p>
+        <h3 id='lasSuperBacteriasMasPeligrosas'>Las super bacterias más peligrosas</h3>
+        <h4>Prioridad 1: critica:</h4>
+        <ul>
+          <li>Acinetobacter baumanii</li>
+          <li>Pseudomonas aeruginosa</li>
+          <li>Familia Enterobacteriaceae, productoras de betalactamasas de espectro extendido – ESBL:
+            <ul>
+              <li>Klebsiella pneumoniae</li>
+              <li>Escherichia coli</li>
+              <li>Serratia marcescens</li>
+              <li>Proteus spp.</li>
+            </ul>
+          </li>
+        </ul>
+        <h4>Prioridad 2: elevada:</h4>
+        <ul>
+          <li>Enterococcus faecium</li>
+          <li>Staphylococcus aureus</li>
+          <li>Helicobacter pylori</li>
+          <li>Campylobacter spp.</li>
+          <li>Familia Salmonellae</li>
+          <li>Neisseria gonorrhoeae</li>
+        </ul>
       </p>
+      <h4>Prioridad 3: media:</h4>
+      <ul>
+        <li>Streptococcus pneumoniae</li>
+        <li>Haemophilus influenzae</li>
+        <li>Shigella spp.</li>
+      </ul>
+      <h3 id='comoPararLaEvolucionDeLasSuperBacterias'>Cómo parar la evolución de las super bacterias</h3>
+      <p>
+        Para ralentizar la evolución de las superbacterias, no debes usar antibióticos si un médico no te
+        lo indicó y no debes dejar de tomarlos cuando te sientas mejor. Si la bacteria es dañada por los
+        antibióticos pero no está muerta, podría convertirse en una súper bacteria.
+        luego de compartir su adn por un proceso llamado conjugacion bacteriana.
+      </p>
+      <h3>Fuentes de información</h3>
+      <ul>
+        <li><a class='link' href='https://amr-review.org/'>AMR review</a></li>
+        <li><a class='link' href='https://www.mayoclinic.org/es-es/diseases-conditions/infectious-diseases/expert-answers/superbugs/faq-20129283'>Mayo Clinic</a></li>
+        <li><a class='link' href='https://www.nationalgeographic.com.es/ciencia/guerra-contra-superbacterias_16752'>National Geographic</a></li>
+        <li><a class='link' href='https://es.wikipedia.org/wiki/Granulocito'>Wikipedia</a></li>
+        <li><a class='link' href='https://www.acs.org/content/acs/en/education/whatischemistry/landmarks/historia-quimica/descubrimiento-desarrollo-penicilina.html#:~:text=En%201928%2C%20en%20el%20St,Howard%20W'>ACS</a></li>
+        <li><a class='link' href='https://medlineplus.gov/spanish/druginfo/meds/a682098-es.html#:~:text=La%20tetraciclina%20pertenece%20a%20una,influenza%20u%20otras%20infecciones%20virales'>Medline Plus</a></li>
+        <li><a class='link' href='https://www.nobbot.com/personas/superbacterias-que-son-prevencion/'>Nobbot</a></li>
+        <li><a class='link' href='https://www.consumerreports.org/es/salud/el-ascenso-de-las-superbacterias/'>Consumer Reports</a></li>
+      </ul>
     </div>
     <div id='bottom'>
       <a href='comoHicimosLaPaginaWeb.html' id='comoHicimosLaPaginaWeb'>¿Cómo hicimos la pagina web?</a>

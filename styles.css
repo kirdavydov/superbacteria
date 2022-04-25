@@ -15,7 +15,7 @@ body{
   position: fixed;
   top: 0px;
   left: 0px;
-  width: 350px;
+  width: 360px;
 }
 #content{
   position: relative;
@@ -40,6 +40,15 @@ body{
 }
 .img{
   border-radius: 10px;
+}
+.link{
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+  transition-duration: 0.3s;
+  border-radius: 3px;
+}
+.link:hover{
+  background-color: rgb(230, 230, 230);
 }
 #i_we{
   height: 512px;
