@@ -12,9 +12,10 @@
       <button type='button' id='se_introduccion' class='sidebar_item' onclick='scrollToElement(introduccion)'>Introducción</button><br>
       <button type='button' id='se_historiaDeLosAntibioticos' class='sidebar_item' onclick='scrollToElement(historiaDeLosAntibioticos)'>Historia de los antibioticos</button><br>
       <button type='button' id='se_comoEvolucionaronLasBacterias' class='sidebar_item' onclick='scrollToElement(comoEvolucionaronLasBacterias)'>¿Como evolucionarón las bacterias?</button><br>
+      <button type='button' id='se_elExperimento' class='sidebar_item' onclick='scrollToElement(elExperimento)'>El experimento</button><br>
       <button type='button' id='se_porQueSonUnProblema' class='sidebar_item' onclick='scrollToElement(porQueSonUnProblema)'>¿Por qué son un problema?</button><br>
       <button type='button' id='se_lasSuperBacteriasMasPeligrosas' class='sidebar_item' onclick='scrollToElement(lasSuperBacteriasMasPeligrosas)'>Las super bacterias más peligrosas</button><br>
-      <button type='button' id='se_comoPararLaEvolucionDeLasSuperBacterias' class='sidebar_item' onclick='scrollToElement(comoPararLaEvolucionDeLasSuperBacterias)'>Cómo parar la evolución de las super bacterias</button><br>
+      <button type='button' id='se_comoPararLaEvolucionDeLasBacterias' class='sidebar_item' onclick='scrollToElement(comoPararLaEvolucionDeLasBacterias)'>Cómo parar la evolución de las bacterias</button><br>
     </div>
 
     <div id='heading'>
@@ -85,6 +86,19 @@
           tiene mas probabilidades de sobrevivir que cuando habia mas bacterias, ahora si repetimos esto varias veces mas,
           mas bacterias morirán (aparte de la inmune) y habrá más bacterias inmunes a los antibióticos.
         </p>
+        <h3 id='elExperimento'>El experimento</h3>
+        <p>
+          En un experimento en la universidad de Harvard colocaron una placa de petri con agar (jalea vegetal que nutre bacterias)
+          y la dividieron en niveles. El primer nivel no contenia antibioticos, el segundo nivel tenia una cantidad moderada
+          de antibioticos, el siguiente 10 veces mas, el siguiente 100 veces mas y el ultimo mil veces mas.
+        </p>
+        <p>
+          Colocaron bacterias en el nivel mas bajo y se empezaron a reproducir y al llegar al nivel 1 se detuvieron,
+          hasta que aparecio una bacteria inmune que se empezo a reproducir, llenando el nivel 1, luego al llenar el nivel 1
+          aparecio otra bacteria mas resistente que las otras y las bacterias siguieron evolucionando, hasta que ocuparon por
+          completo la placa.
+        </p>
+        <img src='img/experimento.png' class='img'>
         <h3 id='porQueSonUnProblema'>¿Por qué son un problema?</h3>
         <p>
           Al contrario que las bacterias normales las super bacterias son resistentes a los antibióticos, que hasta
@@ -92,7 +106,7 @@
         </p>
         <p>
           El problema principal es que nos estamos quedando sin alternativas con las que tratar patógenos,
-          en particular esos que causan infecciones adquiridas en el hospital, pero que tienen posibilidad de
+          en particular esos que causan infecciones adquiridas en el hospital, pero que tienen po sibilidad de
           extenderse por toda la comunidad.
         </p>
         <p>
@@ -143,23 +157,24 @@
         <li>Haemophilus influenzae</li>
         <li>Shigella spp.</li>
       </ul>
-      <h3 id='comoPararLaEvolucionDeLasSuperBacterias'>Cómo parar la evolución de las super bacterias</h3>
+      <h3 id='comoPararLaEvolucionDeLasBacterias'>Cómo parar la evolución de las bacterias</h3>
+      <img src='img/antibiotics.png' id='i_antibiotics' class='img'>
       <p>
-        Para ralentizar la evolución de las superbacterias, no debes usar antibióticos si un médico no te
+        Para ralentizar la evolución de las super bacterias, no debes usar antibióticos si un médico no te
         lo indicó y no debes dejar de tomarlos cuando te sientas mejor. Si la bacteria es dañada por los
         antibióticos pero no está muerta, podría convertirse en una súper bacteria.
         luego de compartir su adn por un proceso llamado conjugacion bacteriana.
       </p>
       <h3>Fuentes de información</h3>
       <ul>
-        <li><a class='link' href='https://amr-review.org/'>AMR review</a></li>
-        <li><a class='link' href='https://www.mayoclinic.org/es-es/diseases-conditions/infectious-diseases/expert-answers/superbugs/faq-20129283'>Mayo Clinic</a></li>
-        <li><a class='link' href='https://www.nationalgeographic.com.es/ciencia/guerra-contra-superbacterias_16752'>National Geographic</a></li>
-        <li><a class='link' href='https://es.wikipedia.org/wiki/Granulocito'>Wikipedia</a></li>
-        <li><a class='link' href='https://www.acs.org/content/acs/en/education/whatischemistry/landmarks/historia-quimica/descubrimiento-desarrollo-penicilina.html#:~:text=En%201928%2C%20en%20el%20St,Howard%20W'>ACS</a></li>
-        <li><a class='link' href='https://medlineplus.gov/spanish/druginfo/meds/a682098-es.html#:~:text=La%20tetraciclina%20pertenece%20a%20una,influenza%20u%20otras%20infecciones%20virales'>Medline Plus</a></li>
-        <li><a class='link' href='https://www.nobbot.com/personas/superbacterias-que-son-prevencion/'>Nobbot</a></li>
-        <li><a class='link' href='https://www.consumerreports.org/es/salud/el-ascenso-de-las-superbacterias/'>Consumer Reports</a></li>
+        <li><a target='_blank' class='link' href='https://amr-review.org/'>AMR review</a></li>
+        <li><a target='_blank' class='link' href='https://www.mayoclinic.org/es-es/diseases-conditions/infectious-diseases/expert-answers/superbugs/faq-20129283'>Mayo Clinic</a></li>
+        <li><a target='_blank' class='link' href='https://www.nationalgeographic.com.es/ciencia/guerra-contra-superbacterias_16752'>National Geographic</a></li>
+        <li><a target='_blank' class='link' href='https://es.wikipedia.org/wiki/Granulocito'>Wikipedia</a></li>
+        <li><a target='_blank' class='link' href='https://www.acs.org/content/acs/en/education/whatischemistry/landmarks/historia-quimica/descubrimiento-desarrollo-penicilina.html#:~:text=En%201928%2C%20en%20el%20St,Howard%20W'>ACS</a></li>
+        <li><a target='_blank' class='link' href='https://medlineplus.gov/spanish/druginfo/meds/a682098-es.html#:~:text=La%20tetraciclina%20pertenece%20a%20una,influenza%20u%20otras%20infecciones%20virales'>Medline Plus</a></li>
+        <li><a target='_blank' class='link' href='https://www.nobbot.com/personas/superbacterias-que-son-prevencion/'>Nobbot</a></li>
+        <li><a target='_blank' class='link' href='https://www.consumerreports.org/es/salud/el-ascenso-de-las-superbacterias/'>Consumer Reports</a></li>
       </ul>
     </div>
     <div id='bottom'>

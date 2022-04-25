@@ -15,11 +15,11 @@ body{
   position: fixed;
   top: 0px;
   left: 0px;
-  width: 360px;
+  width: 400px;
 }
 #content{
   position: relative;
-  left: 390px;
+  left: 410px;
   width: 900px;
 }
 #bottom{
@@ -34,6 +34,7 @@ body{
   font-size: 120%;
   transition-duration: 0.3s;
   border-radius: 3px;
+  padding: 5px;
 }
 .sidebar_item:hover{
   background-color: rgb(230, 230, 230);
@@ -53,6 +54,10 @@ body{
 #i_we{
   height: 512px;
   width: 682.7px;
+}
+#i_antibiotics{
+  width: 649px;
+  height: 365px;
 }
 #comoHicimosLaPaginaWeb{
   text-decoration: none;
