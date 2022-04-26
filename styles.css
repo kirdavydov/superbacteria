@@ -44,7 +44,7 @@ body{
 }
 .link{
   text-decoration: none;
-  color: rgb(50, 50, 50);
+  color: rgb(50, 50, 120);
   transition-duration: 0.3s;
   border-radius: 3px;
 }
@@ -59,7 +59,7 @@ body{
   width: 649px;
   height: 365px;
 }
-#comoHicimosLaPaginaWeb{
+#como_hicimos_la_pagina_web{
   text-decoration: none;
   color: gray;
 }
