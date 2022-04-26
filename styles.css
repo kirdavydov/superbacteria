@@ -24,6 +24,7 @@ body{
   width: 900px;
 }
 #bottom{
+  font-size: 115%;
   background-color: rgb(240, 240, 240);
   position: relative;
   bottom: 0px;
@@ -32,7 +33,7 @@ body{
   background-color: white;
   color: rgb(50, 50, 50);
   border: none;
-  font-size: 120%;
+  font-size: 130%;
   transition-duration: 0.3s;
   border-radius: 3px;
   padding: 5px;
