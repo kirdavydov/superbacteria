@@ -2,27 +2,14 @@
 <html>
   <head>
     <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super bacterias</title>
     <link rel='stylesheet' href='styles.css'>
   </head>
   <body>
-    <div id='sidebar'>
-      <br>
-      <button type='button' id='se_quienes_somos' class='sidebar_item' onclick='scrollToElement(quienes_somos)'>¿Quiénes somos?</button><br>
-      <button type='button' id='se_introduccion' class='sidebar_item' onclick='scrollToElement(introduccion)'>Introducción</button><br>
-      <button type='button' id='se_historia_de_los_antibioticos' class='sidebar_item' onclick='scrollToElement(historia_de_los_antibioticos)'>Historia de los antibioticos</button><br>
-      <button type='button' id='se_como_evolucionaron_las_bacterias' class='sidebar_item' onclick='scrollToElement(como_evolucionaron_las_bacterias)'>¿Como evolucionarón las bacterias?</button><br>
-      <button type='button' id='se_el_experimento' class='sidebar_item' onclick='scrollToElement(el_experimento)'>El experimento</button><br>
-      <button type='button' id='se_por_que_son_un_problema' class='sidebar_item' onclick='scrollToElement(por_que_son_un_problema)'>¿Por qué son un problema?</button><br>
-      <button type='button' id='se_las_super_bacterias_mas_peligrosas' class='sidebar_item' onclick='scrollToElement(las_super_bacterias_mas_peligrosas)'>Las super bacterias más peligrosas</button><br>
-      <button type='button' id='se_como_parar_la_evolucion_de_las_bacterias' class='sidebar_item' onclick='scrollToElement(como_parar_la_evolucion_de_las_bacterias)'>Cómo parar la evolución de las bacterias</button><br>
-      <button type='button' id='se_fuentes_de_informacion' class='sidebar_item' onclick='scrollToElement(fuentes_de_informacion)'>Fuentes de información</button><br>
-    </div>
-
     <div id='heading'>
       <h1>Super bacterias</h1>
     </div>
-<li>
     <div id='content'>
       <p>
         <h3 id='quienes_somos'>¿Quiénes somos?</h3>
@@ -62,7 +49,7 @@
         </p>
         <h3 id='como_evolucionaron_las_bacterias'>¿Como evolucionarón las bacterias?</h3>
         <p>
-          Los antibióticos nos ayudan a combatir las bacterias sin embargo han surgido las Superbacterias,
+          Los antibióticos nos ayudan a combatir las bacterias sin embargo han surgido las Super bacterias,
           bacterias que son resistentes a la mayoría de los antibióticos, antes de empezar a explicar cómo
           evolucionaron las bacterias hay que aclarar que son los antibióticos realmente.
         </p>
@@ -70,14 +57,14 @@
           Los antibióticos nos ayudan a combatir las bacterias y básicamente alteran las reacciones
           químicas que permiten la vida bacteriana, por ejemplo la penicilina interfiere en el funcionamiento de la
           pared celular de las bacterias y así los granulocitos (Los granulocitos ayudan al cuerpo a combatir infecciones
-          bacterianas).
+          bacterianas. La cantidad de granulocitos en el cuerpo normalmente aumenta cuando se presenta una infección grave.
+          Las personas que tienen una cantidad menor de granulocitos son más propensas a tener infecciones graves más a menudo)
+          pueden devorar las bacterias con más facilidad.
         </p>
         <p>
-          La cantidad de granulocitos en el cuerpo normalmente aumenta cuando se presenta una infección grave.
-          Las personas que tienen una cantidad menor de granulocitos son más propensas a tener infecciones graves más a menudo.)
-          Pueden devorar las bacterias con más facilidad. Antibióticos como la tetricilina impiden que las bacterias se
+          Antibióticos como la tetricilina impiden que las bacterias se
           reproduzcan, otros alteran la química de las bacterias impidiendo que generen ciertas vitaminas que necesitan
-          para vivir. Con los antibióticos teníamos la defensa perfecta contra las bacterias, pero no contabamos en la evolución.
+          para vivir. Con los antibióticos teníamos la defensa perfecta contra las bacterias, pero no contabamos con la evolución.
         </p>
         <img src='img/granulocitos.jpeg' class='img'>
         <h4>¿Como evolucionaron?</h4>
@@ -90,7 +77,7 @@
         </p>
         <h3 id='el_experimento'>El experimento</h3>
         <p>
-          En un experimento en la universidad de Harvard colocaron una placa de petri con agar (jalea vegetal que nutre bacterias)
+          En un <span><a href='https://youtu.be/plVk4NVIUh8'>experimento</a></span> en la universidad de Harvard colocaron una placa de petri con agar (jalea vegetal que nutre bacterias)
           y la dividieron en niveles. El primer nivel no contenia antibioticos, el segundo nivel tenia una cantidad moderada
           de antibioticos, el siguiente 10 veces mas, el siguiente 100 veces mas y el ultimo mil veces mas.
         </p>
@@ -178,6 +165,19 @@
         <li><a target='_blank' class='link' href='https://www.nobbot.com/personas/superbacterias-que-son-prevencion/'>Nobbot</a></li>
         <li><a target='_blank' class='link' href='https://www.consumerreports.org/es/salud/el-ascenso-de-las-superbacterias/'>Consumer Reports</a></li>
       </ul>
+    </div>
+    <div id='sidebar'>
+      <br>
+      <button type='button' id='se_quienes_somos' class='sidebar_item' onclick='scrollToElement(quienes_somos)'>¿Quiénes somos?</button><br>
+      <button type='button' id='se_introduccion' class='sidebar_item' onclick='scrollToElement(introduccion)'>Introducción</button><br>
+      <button type='button' id='se_historia_de_los_antibioticos' class='sidebar_item' onclick='scrollToElement(historia_de_los_antibioticos)'>Historia de los antibioticos</button><br>
+      <button type='button' id='se_como_evolucionaron_las_bacterias' class='sidebar_item' onclick='scrollToElement(como_evolucionaron_las_bacterias)'>¿Como evolucionarón las bacterias?</button><br>
+      <button type='button' id='se_el_experimento' class='sidebar_item' onclick='scrollToElement(el_experimento)'>El experimento</button><br>
+      <button type='button' id='se_por_que_son_un_problema' class='sidebar_item' onclick='scrollToElement(por_que_son_un_problema)'>¿Por qué son un problema?</button><br>
+      <button type='button' id='se_las_super_bacterias_mas_peligrosas' class='sidebar_item' onclick='scrollToElement(las_super_bacterias_mas_peligrosas)'>Las super bacterias más peligrosas</button><br>
+      <button type='button' id='se_como_parar_la_evolucion_de_las_bacterias' class='sidebar_item' onclick='scrollToElement(como_parar_la_evolucion_de_las_bacterias)'>Cómo parar la evolución de las bacterias</button><br>
+      <button type='button' id='se_fuentes_de_informacion' class='sidebar_item' onclick='scrollToElement(fuentes_de_informacion)'>Fuentes de información</button><br>
+      <button type="button" id='hide_sidebar' onclick="hide()"><img id='hide_img' src='img/hide.png'></button>
     </div>
     <div id='bottom'>
       <a href='como_hicimos_la_pagina_web.html' id='como_hicimos_la_pagina_web'>¿Cómo hicimos la pagina web?</a>

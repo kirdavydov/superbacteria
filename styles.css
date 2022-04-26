@@ -13,9 +13,9 @@ body{
 #sidebar{
   background-color: white;
   position: fixed;
-  top: 0px;
+  top: 200px;
   left: 0px;
-  width: 400px;
+  border-radius: 10px;
 }
 #content{
   position: relative;
@@ -54,6 +54,21 @@ body{
 #i_we{
   height: 512px;
   width: 682.7px;
+  padding: none;
+}
+#hide_img{
+  width: inherit;
+  height: inherit;
+  border-radius: 3px;
+}
+#hide_sidebar{
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  left: 400px;
+  top: -140px;
 }
 #i_antibiotics{
   width: 649px;
