@@ -5,6 +5,7 @@ body{
   color: rgb(50, 50, 50);
 }
 #heading{
+  position: relative;
   margin: auto;
   width: 600px;
   text-align: center;
