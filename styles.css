@@ -6,6 +6,7 @@ body{
 }
 #heading{
   position: relative;
+  left: 100px;
   margin: auto;
   width: 600px;
   text-align: center;
@@ -21,7 +22,7 @@ body{
 }
 #content{
   position: relative;
-  left: 430px;
+  left: 460px;
   width: 900px;
 }
 #bottom{
